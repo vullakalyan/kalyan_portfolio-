@@ -1,0 +1,15 @@
+{
+  "short_name": "Vulla Kalyan",
+  "name": "Vulla Kalyan - Full-Stack Developer",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#020617",
+  "background_color": "#020617"
+}

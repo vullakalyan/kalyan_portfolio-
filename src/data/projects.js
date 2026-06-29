@@ -1,0 +1,121 @@
+import { FaReact, FaNodeJs, FaCss3Alt, FaBootstrap } from 'react-icons/fa';
+import { SiExpress, SiMongodb, SiJsonwebtokens, SiNetlify, SiVercel, SiJavascript, SiRender, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
+import { TbApi } from 'react-icons/tb';
+import { FaGithub as FaGithubPages } from 'react-icons/fa';
+
+export const projects = [
+  {
+    id: 1,
+    title: 'StreamVault',
+    subtitle: 'Video Streaming Platform',
+    description:
+      'A Netflix-inspired full-stack streaming platform with secure JWT authentication, TMDB API integration, protected routes, and responsive design.',
+    features: [
+      'Secure Login',
+      'JWT Auth',
+      'Movie Search',
+      'Categories',
+      'Responsive UI',
+      'Protected Routes',
+      'REST APIs',
+    ],
+    techStack: [
+      { name: 'React.js', icon: FaReact },
+      { name: 'Node.js', icon: FaNodeJs },
+      { name: 'Express.js', icon: SiExpress },
+      { name: 'MongoDB', icon: SiMongodb },
+      { name: 'JWT', icon: SiJsonwebtokens },
+      { name: 'REST APIs', icon: TbApi },
+      { name: 'CSS3', icon: FaCss3Alt },
+      { name: 'Netlify', icon: SiNetlify },
+      { name: 'Render', icon: SiRender },
+    ],
+    github: 'https://github.com/vullakalyan/Movies-app',
+    liveDemo: null,
+    status: 'In Progress',
+    gradient: 'from-red-500/20 via-purple-500/20 to-blue-500/20',
+    accentColor: '#EF4444',
+  },
+  {
+    id: 2,
+    title: 'TaskFlow',
+    subtitle: 'Full-Stack Task Management System',
+    description:
+      'A Trello-inspired Kanban task management platform with drag-and-drop boards, role-based authentication, reusable components, and MongoDB.',
+    features: [
+      'Drag & Drop',
+      'Role Based Auth',
+      'JWT Security',
+      'CRUD Operations',
+      'Responsive Design',
+      'Kanban Board',
+    ],
+    techStack: [
+      { name: 'React.js', icon: FaReact },
+      { name: 'Node.js', icon: FaNodeJs },
+      { name: 'Express.js', icon: SiExpress },
+      { name: 'MongoDB', icon: SiMongodb },
+      { name: 'JWT', icon: SiJsonwebtokens },
+      { name: 'CSS3', icon: FaCss3Alt },
+      { name: 'Vercel', icon: SiVercel },
+    ],
+    github: 'https://github.com/vullakalyan/Task_Flow_Management_App',
+    liveDemo: 'https://task-flow-management-919655108452.asia-southeast1.run.app',
+    status: 'Live',
+    gradient: 'from-blue-500/20 via-cyan-500/20 to-teal-500/20',
+    accentColor: '#2563EB',
+  },
+  {
+    id: 3,
+    title: 'ShopEase',
+    subtitle: 'E-Commerce Storefront',
+    description:
+      'A responsive e-commerce app with filtering, search, shopping cart, checkout flow, REST API integration, and LocalStorage caching.',
+    features: [
+      'Product Search',
+      'Filtering',
+      'Shopping Cart',
+      'Checkout',
+      'Responsive Layout',
+      'LocalStorage',
+    ],
+    techStack: [
+      { name: 'React.js', icon: FaReact },
+      { name: 'JavaScript', icon: SiJavascript },
+      { name: 'Bootstrap', icon: FaBootstrap },
+      { name: 'REST APIs', icon: TbApi },
+      { name: 'GitHub Pages', icon: FaGithubPages },
+    ],
+    github: 'https://github.com/vullakalyan/ShopEase-E-Commerce-Storefront_App',
+    liveDemo: 'https://shopease-919655108452.asia-southeast1.run.app',
+    status: 'Live',
+    gradient: 'from-emerald-500/20 via-green-500/20 to-lime-500/20',
+  },
+  {
+    id: 4,
+    title: 'Super App',
+    subtitle: 'Personalized Entertainment & Productivity Dashboard',
+    description:
+      'A personalized dashboard built with Next.js 14 and TypeScript, featuring live weather, auto-rotating news, a countdown timer, browser-persisted personal notes, and OMDB movie discovery.',
+    features: [
+      'Live Weather',
+      'News Headlines',
+      'Movie Discovery',
+      'Local Storage',
+      'Custom Timer',
+      'Personal Notes',
+    ],
+    techStack: [
+      { name: 'Next.js 14', icon: SiNextdotjs },
+      { name: 'TypeScript', icon: SiTypescript },
+      { name: 'Tailwind CSS', icon: SiTailwindcss },
+      { name: 'Zustand', icon: FaReact },
+      { name: 'REST APIs', icon: TbApi },
+    ],
+    github: 'https://github.com/vullakalyan/SuperApp_Movies_News_Weater',
+    liveDemo: 'https://superapp-movies-news-weater.onrender.com',
+    status: 'Live',
+    gradient: 'from-orange-500/20 via-pink-500/20 to-rose-500/20',
+    accentColor: '#F43F5E',
+  },
+];

@@ -7,7 +7,7 @@ import { useMouseParallax } from '../../hooks/useMouseParallax';
 import ParticleBackground from '../../components/animations/ParticleBackground';
 import FloatingIcons from '../../components/animations/FloatingIcons';
 
-const profileImg = '/profile.jpg'; // Load from public directory for runtime fallback
+const profileImg = 'https://silky-green-mrnqjljj.edgeone.dev/file_00000000254872098716e72c355f2de7.png'; // Load from public directory for runtime fallback
 
 function HeroImage() {
   const parallax = useMouseParallax(15);

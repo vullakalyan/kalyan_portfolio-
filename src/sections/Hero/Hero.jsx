@@ -7,7 +7,7 @@ import { useMouseParallax } from '../../hooks/useMouseParallax';
 import ParticleBackground from '../../components/animations/ParticleBackground';
 import FloatingIcons from '../../components/animations/FloatingIcons';
 
-const profileImg = 'https://kommodo.ai/i/lIVKsSsjWZRtGPKLpMwZ'; // Load from public directory for runtime fallback
+const profileImg = '/profile.jpg'; // Load from public directory for runtime fallback
 
 function HeroImage() {
   const parallax = useMouseParallax(15);

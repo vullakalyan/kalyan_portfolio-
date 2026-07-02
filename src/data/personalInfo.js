@@ -24,7 +24,7 @@ export const personalInfo = {
   ],
   social: {
     github: 'https://github.com/vullakalyan',
-    linkedin: 'https://www.linkedin.com/in/vulla-kalyan-50499a418/',
+    linkedin: 'https://in.linkedin.com/in/vulla-kalyan-6031a9322',
     email: 'vullakalyan@gmail.com',
   },
   resumePath: '/resume.pdf',

@@ -118,4 +118,38 @@ export const projects = [
     gradient: 'from-orange-500/20 via-pink-500/20 to-rose-500/20',
     accentColor: '#F43F5E',
   },
+  
+{
+  id: 5,
+  title: 'TelEnglish',
+  subtitle: 'AI-Powered English Learning Platform',
+  description:
+    'A world-class full-stack English learning platform designed for Telugu speakers, featuring 500 core B2 English verbs, AI-powered contextual examples, pronunciation using the Web Speech API, adaptive quizzes, learning analytics, and a modern responsive interface.',
+  features: [
+    '500 English Verbs',
+    'AI Examples',
+    'Web Speech API',
+    '5-Form Verb Conjugation',
+    'Adaptive Quiz',
+    'Learning Analytics',
+    'Dark/Light Mode',
+    'Responsive Design'
+  ],
+  techStack: [
+    { name: 'React 18', icon: FaReact },
+    { name: 'TypeScript', icon: SiTypescript },
+    { name: 'Tailwind CSS', icon: SiTailwindcss },
+    { name: 'Google Gemini API', icon: TbApi },
+    { name: 'Web Speech API', icon: TbApi },
+    { name: 'Recharts', icon: FaReact },
+    { name: 'Vite', icon: SiVercel }
+  ],
+  github: 'https://github.com/vullakalyan/english-verbs-telugu-App.git',
+  liveDemo: 'https://telenglish-english-through-telugu-586420230128.asia-southeast1.run.app/',
+  status: 'Live',
+  gradient: 'from-violet-500/20 via-indigo-500/20 to-cyan-500/20',
+  accentColor: '#7C3AED',
+},
+
+  
 ];

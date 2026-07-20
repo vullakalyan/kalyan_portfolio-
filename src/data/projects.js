@@ -144,7 +144,7 @@ export const projects = [
     { name: 'Recharts', icon: FaReact },
     { name: 'Vite', icon: SiVercel }
   ],
-  github: 'https://github.com/vullakalyan/english-verbs-telugu-App.git',
+  github: 'https://github.com/vullakalyan/learn-english-through-telugu.git',
   liveDemo: 'https://telenglish-english-through-telugu-586420230128.asia-southeast1.run.app/',
   status: 'Live',
   gradient: 'from-violet-500/20 via-indigo-500/20 to-cyan-500/20',

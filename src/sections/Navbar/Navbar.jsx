@@ -34,10 +34,17 @@ export default function Navbar() {
     e.preventDefault();
     setIsMobileOpen(false);
     const id = href.replace('#', '');
-    const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    
+    // Add a slight delay to allow the mobile menu to begin closing
+    // This prevents the layout change from interrupting the smooth scroll
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) {
+        // Offset for the fixed navbar height (roughly 80px)
+        const y = el.getBoundingClientRect().top + window.scrollY - 80;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    }, 150);
   };
 
   return (

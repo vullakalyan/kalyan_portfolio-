@@ -35,7 +35,7 @@ export const stats = [
   { label: 'Full-Stack Developer', icon: '💻' },
   { label: 'B.Sc Math, Physics & CS', icon: '🎓' },
   { label: 'Graduation 2024', icon: '📅' },
-  { label: 'GPA 8.4', icon: '⭐' },
+  { label: 'CGPA 8.4', icon: '⭐' },
   { label: '6 Certifications', icon: '📜' },
   { label: '5 Projects', icon: '🚀' },
   { label: 'Fast Learner', icon: '⚡' },

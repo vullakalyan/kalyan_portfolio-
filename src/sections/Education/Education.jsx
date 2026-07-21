@@ -66,10 +66,10 @@ export default function Education() {
                     {edu.institution}
                   </p>
 
-                  {/* CGPA */}
+                  {/* GPA */}
                   <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-success/10 text-success text-sm font-semibold mb-4">
                     <FaStar className="w-3.5 h-3.5" />
-                    CGPA: {edu.cgpa}
+                    GPA: {edu.gpa}
                   </div>
 
                   {/* Highlights */}

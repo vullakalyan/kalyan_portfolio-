@@ -28,7 +28,7 @@ export const personalInfo = {
     email: 'vullakalyan@gmail.com',
   },
   resumePath: '/resume.pdf',
-  careerObjective: `As a passionate Full-Stack Web Developer, I am seeking opportunities where I can contribute to impactful software projects while continuing to learn modern technologies, collaborate with talented teams, and grow into a professional software engineer.`,
+  careerObjective: `Full-Stack Web Developer with hands-on experience building and deploying production-grade React.js and Node.js applications. Demonstrated ability to architect secure JWT-authenticated REST APIs, manage complex application state, and deliver responsive, user-centric interfaces. Holds six verified full-stack certifications and has independently shipped three complete web applications. Seeking a developer role where strong engineering fundamentals, rapid learning velocity, and ownership-driven work ethic can create immediate impact.`,
 };
 
 export const stats = [

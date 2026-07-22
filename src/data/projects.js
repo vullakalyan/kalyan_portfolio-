@@ -150,6 +150,35 @@ export const projects = [
   gradient: 'from-violet-500/20 via-indigo-500/20 to-cyan-500/20',
   accentColor: '#7C3AED',
 },
-
-  
+{
+  id: 6,
+  title: 'AI Travel Planner',
+  subtitle: 'Intelligent Itinerary Generation Platform',
+  description:
+    'A full-stack AI-powered travel assistant that generates highly detailed, personalized day-by-day itineraries, interactive budget breakdowns, and curated hotel recommendations tailored to the user\'s destinations and preferences.',
+  features: [
+    'Custom Trip Generation',
+    'AI Model Fallback (Claude & Groq)',
+    'Interactive Budget Allocation',
+    'Curated Hotel Matches',
+    'Mongoose/MongoDB Atlas Persistence',
+    'Secure User Auth',
+    'Modern Glassmorphic UI'
+  ],
+  techStack: [
+    { name: 'Next.js 14', icon: SiNextdotjs },
+    { name: 'Node.js', icon: FaNodeJs },
+    { name: 'Express.js', icon: SiExpress },
+    { name: 'MongoDB Atlas', icon: SiMongodb },
+    { name: 'Anthropic Claude API', icon: TbApi },
+    { name: 'Groq Llama 3 API', icon: TbApi },
+    { name: 'Netlify', icon: SiNetlify },
+    { name: 'Render', icon: SiRender }
+  ],
+  github: 'https://github.com/vullakalyan/my-antigravity-fullstack-ai-travel-planner-app',
+  liveDemo: 'https://comfy-dieffenbachia-c64da9.netlify.app',
+  status: 'Live',
+  gradient: 'from-cyan-500/20 via-blue-500/20 to-indigo-500/20',
+  accentColor: '#06B6D4'
+}
 ];

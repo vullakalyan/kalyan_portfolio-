@@ -166,7 +166,10 @@ export const projects = [
     'Modern Glassmorphic UI'
   ],
   techStack: [
+    { name: 'React 18', icon: FaReact },
     { name: 'Next.js 14', icon: SiNextdotjs },
+    { name: 'TypeScript', icon: SiTypescript },
+    { name: 'Tailwind CSS', icon: SiTailwindcss },
     { name: 'Node.js', icon: FaNodeJs },
     { name: 'Express.js', icon: SiExpress },
     { name: 'MongoDB Atlas', icon: SiMongodb },

@@ -37,7 +37,7 @@ export const stats = [
   { label: 'Graduation 2024', icon: '📅' },
   { label: 'CGPA 8.4', icon: '⭐' },
   { label: '6 Certifications', icon: '📜' },
-  { label: '5 Projects', icon: '🚀' },
+  { label: '6 Projects', icon: '🚀' },
   { label: 'Fast Learner', icon: '⚡' },
   { label: 'Team Player', icon: '🤝' },
   { label: 'Problem Solver', icon: '🧩' },

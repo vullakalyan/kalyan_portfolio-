@@ -46,8 +46,8 @@ export const certifications = [
   },
   {
     id: 6,
-    name: 'Responsive Web Development',
-    subtitle: 'HTML, CSS & Bootstrap',
+    name: 'HTML · CSS · Bootstrap',
+    subtitle: 'Static Websites',
     organization: 'NxtWave (CCBP)',
     certificateId: 'RZKLLCCENY',
     url: 'https://certificates.ccbp.in/intensive/responsive-website?id=RZKLLCCENY',

@@ -30,12 +30,12 @@ export const skillCategories = [
   {
     category: 'Frontend',
     skills: [
+      { name: 'React.js', icon: FaReact, color: '#61DAFB', proficiency: 90 },
+      { name: 'JavaScript (ES6+)', icon: FaJsSquare, color: '#F7DF1E', proficiency: 85 },
       { name: 'HTML5', icon: FaHtml5, color: '#E34F26', proficiency: 90 },
       { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6', proficiency: 88 },
-      { name: 'JavaScript', icon: FaJsSquare, color: '#F7DF1E', proficiency: 85 },
-      { name: 'React.js', icon: FaReact, color: '#61DAFB', proficiency: 88 },
-      { name: 'Bootstrap', icon: FaBootstrap, color: '#7952B3', proficiency: 82 },
-      { name: 'Responsive Design', icon: FaMobileAlt, color: '#38BDF8', proficiency: 90 },
+      { name: 'Bootstrap 5', icon: FaBootstrap, color: '#7952B3', proficiency: 82 },
+      { name: 'Responsive Web Design', icon: FaMobileAlt, color: '#38BDF8', proficiency: 90 },
     ],
   },
   {
@@ -44,19 +44,21 @@ export const skillCategories = [
       { name: 'Node.js', icon: FaNodeJs, color: '#339933', proficiency: 85 },
       { name: 'Express.js', icon: SiExpress, color: '#FFFFFF', proficiency: 83 },
       { name: 'Python', icon: FaPython, color: '#3776AB', proficiency: 78 },
-      { name: 'REST APIs', icon: TbApi, color: '#38BDF8', proficiency: 87 },
+      { name: 'REST API Design', icon: TbApi, color: '#38BDF8', proficiency: 87 },
       { name: 'JWT Authentication', icon: SiJsonwebtokens, color: '#FB015B', proficiency: 85 },
     ],
   },
   {
-    category: 'Database',
+    category: 'Databases',
     skills: [
       { name: 'MongoDB', icon: SiMongodb, color: '#47A248', proficiency: 84 },
-      { name: 'MySQL', icon: SiMysql, color: '#4479A1', proficiency: 75 },
+      { name: 'SQL (MySQL)', icon: SiMysql, color: '#4479A1', proficiency: 75 },
+      { name: 'Schema Design', icon: MdSchema, color: '#F59E0B', proficiency: 78 },
+      { name: 'Query Optimization', icon: TbBrain, color: '#8B5CF6', proficiency: 75 },
     ],
   },
   {
-    category: 'Tools',
+    category: 'Tools & DevOps',
     skills: [
       { name: 'Git', icon: FaGitAlt, color: '#F05032', proficiency: 85 },
       { name: 'GitHub', icon: FaGithub, color: '#FFFFFF', proficiency: 88 },
@@ -68,15 +70,13 @@ export const skillCategories = [
     ],
   },
   {
-    category: 'Core',
+    category: 'Core Concepts',
     skills: [
-      { name: 'MVC Architecture', icon: HiOutlineCube, color: '#60A5FA', proficiency: 82 },
       { name: 'Protected Routing', icon: TbRoute, color: '#22C55E', proficiency: 85 },
       { name: 'State Management', icon: HiOutlineShieldCheck, color: '#A78BFA', proficiency: 80 },
-      { name: 'Schema Design', icon: MdSchema, color: '#F59E0B', proficiency: 78 },
-      { name: 'REST API Design', icon: TbApi, color: '#38BDF8', proficiency: 85 },
+      { name: 'MVC Architecture', icon: HiOutlineCube, color: '#60A5FA', proficiency: 82 },
+      { name: 'CORS', icon: TbApi, color: '#38BDF8', proficiency: 80 },
       { name: 'Error Handling', icon: BiErrorCircle, color: '#EF4444', proficiency: 82 },
-      { name: 'Problem Solving', icon: TbBrain, color: '#8B5CF6', proficiency: 90 },
     ],
   },
 ];

@@ -8,10 +8,11 @@ export const education = [
     cgpa: '8.4 / 10',
     icon: '🎓',
     highlights: [
-      'Strong foundation in Mathematics and Computer Science',
-      'Hands-on experience with programming and software development',
-      'Developed multiple full-stack web applications',
-      'Consistent academic performance with 8.4 CGPA',
+      'Data Structures',
+      'Database Management Systems',
+      'Computer Networks',
+      'Operating Systems',
+      'Object-Oriented Programming',
     ],
   },
 ];

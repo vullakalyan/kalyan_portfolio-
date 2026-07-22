@@ -9,7 +9,7 @@ export const projects = [
     title: 'StreamVault',
     subtitle: 'Video Streaming Platform',
     description:
-      'A Netflix-inspired full-stack streaming platform with secure JWT authentication, TMDB API integration, protected routes, and responsive design.',
+      'Built a Netflix/Prime-style full-stack streaming platform with dynamic routing, deep-search via TMDB API, JWT access-token auth, and global state management with React Context API.',
     features: [
       'Secure Login',
       'JWT Auth',
@@ -41,7 +41,7 @@ export const projects = [
     title: 'TaskFlow',
     subtitle: 'Full-Stack Task Management System',
     description:
-      'A Trello-inspired Kanban task management platform with drag-and-drop boards, role-based authentication, reusable components, and MongoDB.',
+      'A Trello-inspired Kanban board with drag-and-drop ordering, real-time status updates, role-based access control (RBAC), and a reusable React component library.',
     features: [
       'Drag & Drop',
       'Role Based Auth',
@@ -70,7 +70,7 @@ export const projects = [
     title: 'ShopEase',
     subtitle: 'E-Commerce Storefront',
     description:
-      'A responsive e-commerce app with filtering, search, shopping cart, checkout flow, REST API integration, and LocalStorage caching.',
+      'A fully responsive e-commerce storefront featuring product filtering, cart management, a multi-step checkout flow, REST API integration with localStorage caching, and search-as-you-type with debounce.',
     features: [
       'Product Search',
       'Filtering',

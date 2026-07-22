@@ -5,7 +5,7 @@ export const education = [
     field: 'Mathematics, Physics & Computer Science',
     institution: 'Hindustan Shipyard Degree College',
     duration: '2021 – 2024',
-    cgpa: '8.4 / 10',
+    cgpa: '8.4',
     icon: '🎓',
     highlights: [
       'Data Structures',
